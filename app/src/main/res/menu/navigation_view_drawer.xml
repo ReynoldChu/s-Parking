@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/NavigationView_reservation"
+            android:icon="@drawable/icon_res"
+            android:title="預約" />
+        <item
+            android:id="@+id/NavigationView_navigation"
+            android:icon="@drawable/icon_distance"
+            android:title="導航" />
+        <item
+            android:id="@+id/NavigationView_AlterUserData"
+            android:icon="@drawable/icon_myaccount"
+            android:title="更改會員資料" />
+
+    </group>
+
+    <item android:title="設定">
+        <menu>
+            <item
+                android:id="@+id/NavigationView_AboutUs"
+                android:icon="@drawable/icon_myaccount"
+                android:title="關於我們" />
+            <item
+                android:id="@+id/NavigationView_SignOut"
+                android:icon="@drawable/ic_menu_send"
+                android:title="登出" />
+
+        </menu>
+    </item>
+
+</menu>
